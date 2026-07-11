@@ -1,4 +1,8 @@
 # 🏦 Smart Lender – AI-Powered Loan Approval Prediction
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
+![XGBoost](https://img.shields.io/badge/XGBoost-ML-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 ## 🌐 Live Demo
 
 https://YOUR-RENDER-LINK.onrender.com
