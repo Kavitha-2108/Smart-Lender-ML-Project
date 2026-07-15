@@ -6,7 +6,7 @@ https://YOUR-RENDER-LINK.onrender.com
 An AI-powered web application that predicts whether a loan application is likely to be **Approved** or **Rejected** using Machine Learning. The project is built with **Python**, **Flask**, **XGBoost**, and **Scikit-learn**, providing a simple and user-friendly interface for loan eligibility prediction.
 
 ---
-
+#Demo video link :https://drive.google.com/file/d/1fUuPdI_bI1_qs9hF-lbvRaZO6vtQJEuC/view?usp=drive_link
 ## 📌 Project Overview
 
 Smart Lender is a machine learning-based web application designed to assist banks and financial institutions in evaluating loan applications. Users can enter applicant details through a web interface, and the trained machine learning model predicts the loan approval status instantly.
