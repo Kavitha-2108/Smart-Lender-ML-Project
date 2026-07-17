@@ -210,35 +210,21 @@ The confidence values help users understand the certainty of the model's predict
 
 ---
 
-# 📷 Project Screenshots
-
-### 🏠 Home Page
+## 🏠 Home Page
 
 ![Home](screenshots/home.png)
 
----
+## 📝 Prediction Form
 
-### 📝 Loan Application Form
+![Prediction](screenshots/prediction.png)
 
-![Prediction Form](screenshots/prediction.png)
-
----
-
-### ✅ Loan Approved
-
-Displays the loan approval result along with the approval confidence and rejection risk.
+## ✅ Loan Approved
 
 ![Approved](screenshots/approved.png)
 
----
-
-### ❌ Loan Rejected
-
-Displays the loan rejection result along with the approval confidence and rejection risk.
+## ❌ Loan Rejected
 
 ![Rejected](screenshots/rejected.png)
-
----
 
 # 🚀 Deployment
 
