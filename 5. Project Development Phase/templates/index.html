@@ -1,126 +1,106 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Lender</title>
 
-    <link rel="stylesheet"
-    href="{{ url_for('static', filename='style.css') }}">
-
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
 
 <div class="container">
 
-<h1>Smart Lender</h1>
+    <h1>🏦 Smart Lender</h1>
 
-<form action="/predict" method="POST">
+    <form action="/predict" method="POST">
 
-<label>Gender</label>
+        <div class="form-group">
+            <label>Gender</label>
+            <select name="Gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
 
-<select name="Gender">
+        <div class="form-group">
+            <label>Married</label>
+            <select name="Married">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+        </div>
 
-<option>Male</option>
+        <div class="form-group">
+            <label>Dependents</label>
+            <select name="Dependents">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3+</option>
+            </select>
+        </div>
 
-<option>Female</option>
+        <div class="form-group">
+            <label>Education</label>
+            <select name="Education">
+                <option>Graduate</option>
+                <option>Not Graduate</option>
+            </select>
+        </div>
 
-</select>
+        <div class="form-group">
+            <label>Self Employed</label>
+            <select name="Self_Employed">
+                <option>No</option>
+                <option>Yes</option>
+            </select>
+        </div>
 
-<label>Married</label>
+        <div class="form-group">
+            <label>Applicant Income</label>
+            <input type="number" name="ApplicantIncome" required>
+        </div>
 
-<select name="Married">
+        <div class="form-group">
+            <label>Co Applicant Income</label>
+            <input type="number" name="CoapplicantIncome" required>
+        </div>
 
-<option>Yes</option>
+        <div class="form-group">
+            <label>Loan Amount</label>
+            <input type="number" name="LoanAmount" required>
+        </div>
 
-<option>No</option>
+        <div class="form-group">
+            <label>Loan Amount Term</label>
+            <input type="number" name="Loan_Amount_Term" required>
+        </div>
 
-</select>
+        <div class="form-group">
+            <label>Credit History</label>
+            <select name="Credit_History">
+                <option value="1">1</option>
+                <option value="0">0</option>
+            </select>
+        </div>
 
-<label>Dependents</label>
+        <div class="form-group">
+            <label>Property Area</label>
+            <select name="Property_Area">
+                <option>Urban</option>
+                <option>Semiurban</option>
+                <option>Rural</option>
+            </select>
+        </div>
 
-<select name="Dependents">
+        <button type="submit">Predict Loan</button>
 
-<option>0</option>
-
-<option>1</option>
-
-<option>2</option>
-
-<option>3+</option>
-
-</select>
-
-<label>Education</label>
-
-<select name="Education">
-
-<option>Graduate</option>
-
-<option>Not Graduate</option>
-
-</select>
-
-<label>Self Employed</label>
-
-<select name="Self_Employed">
-
-<option>No</option>
-
-<option>Yes</option>
-
-</select>
-
-<label>Applicant Income</label>
-
-<input type="number" name="ApplicantIncome" required>
-
-<label>Co Applicant Income</label>
-
-<input type="number" name="CoapplicantIncome" required>
-
-<label>Loan Amount</label>
-
-<input type="number" name="LoanAmount" required>
-
-<label>Loan Term</label>
-
-<input type="number" name="Loan_Amount_Term" required>
-
-<label>Credit History</label>
-
-<select name="Credit_History">
-
-<option value="1">1</option>
-
-<option value="0">0</option>
-
-</select>
-
-<label>Property Area</label>
-
-<select name="Property_Area">
-
-<option>Urban</option>
-
-<option>Semiurban</option>
-
-<option>Rural</option>
-
-</select>
-
-<button type="submit">
-
-Predict Loan
-
-</button>
-
-</form>
+    </form>
 
 </div>
 
 </body>
-
 </html>
