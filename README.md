@@ -212,19 +212,24 @@ The confidence values help users understand the certainty of the model's predict
 
 ## 🏠 Home Page
 
-![Home](screenshots/home.png)
+<img width="1883" height="1067" alt="home" src="https://github.com/user-attachments/assets/ab341566-1fde-41ef-b594-9bd26f83a8a2" />
+
 
 ## 📝 Prediction Form
 
-![Prediction](screenshots/prediction.png)
+<img width="1918" height="1078" alt="prediction" src="https://github.com/user-attachments/assets/3bc51a20-79d6-492b-97b9-187207888461" />
+
 
 ## ✅ Loan Approved
 
-![Approved](screenshots/approved.png)
+<img width="1918" height="1078" alt="approved" src="https://github.com/user-attachments/assets/506ddcdc-6c84-48e2-baa9-9de893231fda" />
+
 
 ## ❌ Loan Rejected
 
-![Rejected](screenshots/rejected.png)
+<img width="1917" height="1078" alt="rejected" src="https://github.com/user-attachments/assets/5aae9dda-ba80-421d-843e-8f273e1489ce" />
+
+---
 
 # 🚀 Deployment
 
