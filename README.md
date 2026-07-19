@@ -12,8 +12,7 @@ https://smart-lender-ml-project.onrender.com/
 
 # 🎥 Demo Video
 
-https://drive.google.com/file/d/1hOw3sB-cznPaEGxVmvbvgfBdbYrA5reC/view?usp=drive_link
-
+https://drive.google.com/file/d/1hOw3sB-cznPaEGxVmvbvgfBdbYrA5reC/view?usp=sharing
 ---
 
 # 📂 GitHub Repository
